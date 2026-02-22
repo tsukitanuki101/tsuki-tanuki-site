@@ -12,7 +12,7 @@ body {
   width: 100%;
   max-width: 1200px;
   aspect-ratio: 16 / 9;
-  background-image: url("bakery.png");
+  background-image: url("Bakery.png");
   background-size: cover;
   background-position: center;
 }
