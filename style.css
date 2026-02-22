@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #6e8ec4; /* adjust to match your sky */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bakery {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  background-image: url("bakery.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.door-link {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 18%;
+  height: 55%;
+  
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.door-link:hover {
+  box-shadow: 0 0 20px white;
+  cursor: pointer;
+}
